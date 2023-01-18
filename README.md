@@ -26,12 +26,12 @@ robot by delivering high-level commands.
 ### Example of training
 
 <p align="center">
-<img height="400" src="https://github.com/Shared-Intelligence-RL/thesis_mihailovic/blob/main/readme_files/train_video.gif" title="Training scene" width="550"/>
+<img height="400" src="https://github.com/mirovix/Master_Thesis/tree/main/readme_files/train_video.gif" title="Training scene" width="550"/>
 </p>
 
 ### Performance of multiple agents
 
-![](https://github.com/Shared-Intelligence-RL/thesis_mihailovic/blob/main/readme_files/train.png "Train plot")
+![](https://github.com/mirovix/Master_Thesis/tree/main/readme_files/train.png "Train plot")
 
 (Top) Accumulated reward per episode achieved with the agents. (Bottom) The accumulated action-value function (Q) per episode achieved with the agents.
 
@@ -39,13 +39,13 @@ robot by delivering high-level commands.
 ### Example of testing sequence
 
 <p align="center">
-<img height="350" src="https://github.com/Shared-Intelligence-RL/thesis_mihailovic/blob/main/readme_files/RL_test_video.gif" title="Testing scene" width="550"/>
+<img height="350" src="https://github.com/mirovix/Master_Thesis/tree/main/readme_files/RL_test_video.gif" title="Testing scene" width="550"/>
 </p>
 
 ### Path used for testing multiple systems
 
 <p align="center">
-<img height="550" src="https://github.com/Shared-Intelligence-RL/thesis_mihailovic/blob/main/readme_files/testing_path.png" title="testing path plot" width="350"/>
+<img height="550" src="https://github.com/mirovix/Master_Thesis/tree/main/readme_files/testing_path.png" title="testing path plot" width="350"/>
 </p>
 
 Trajectories of 𝑆𝐼 +𝑅𝐿𝑃4 (green path) and 𝑆𝐼 (red path) approaches.
