@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="path" default="/home/miro/tiago_public_ws/src"/>
+<node name ="pre_processing" pkg="drone" type="pre_processing.py" args="$(arg path)"/>
+<node name ="goal" pkg="drone" type="goal" />
+<node name ="tf_map_bl" pkg="drone" type="tf_map_bl.py"/>
+<node name ="PublishGoal" pkg="drone" type="PublishGoal.py" />
+<!--<node name ="PublishGoal" pkg="reinforcement_learning_policy" type="publish_goal.py" />-->
+<node name ="RL_policy" pkg="drone" type="RL_policy.py" output="screen" args="$(arg path)"/>
+</launch>

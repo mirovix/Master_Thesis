@@ -1,0 +1,9 @@
+*******
+TEST NUMBER : 1
+Performance Accurancy [%] : 100.000000
+Non collision Accurancy [%] : 100.000000
+Path measured [cells] : 38.9604
+Avg min distance measured [cells] : 0.0689
+Avg time [s] : 571.7233
+Num di input : 63
+*******

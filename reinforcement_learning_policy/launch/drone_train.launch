@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="path" default="/home/miro/tiago_public_ws/src"/>
+<node name ="pre_processing" pkg="drone" type="pre_processing.py" args="$(arg path)"/>
+<node name ="goal" pkg="drone" type="goal" />
+<node name ="PublishGoal" pkg="drone" type="PublishGoal.py" />
+<node name ="training_drone" pkg="drone" type="training_drone.py" output="screen" args="$(arg path)"/>
+</launch>

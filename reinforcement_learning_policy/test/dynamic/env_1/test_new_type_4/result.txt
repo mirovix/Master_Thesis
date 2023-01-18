@@ -1,0 +1,9 @@
+
+*******
+TEST NUMBER : 25
+Performance Accurancy [%] : 48.000000
+Non collision Accurancy [%] : 68.000000
+Avg path measured [cells] : 1.692019
+Avg min distance measured [cells] : 0.232002
+Avg time [s] : 34.090917
+*******

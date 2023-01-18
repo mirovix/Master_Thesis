@@ -1,0 +1,20 @@
+Performance Accurancy [%] : 100.000000
+Non collision Accurancy [%] : 100.000000
+Path measured [cells] : 36.233602
+Avg min distance measured [cells] : 0.086119
+Avg time [s] : 636.788000
+Num di input : 57
+
+Performance Accurancy [%] : 85.714286
+Non collision Accurancy [%] : 85.714286
+Path measured [cells] : 40.218885
+Avg min distance measured [cells] : 0.082516
+Avg time [s] : 850.410000
+Num di input : 60
+
+Performance Accurancy [%] : 100.000000
+Non collision Accurancy [%] : 100.000000
+Path measured [cells] : 42.032543
+Avg min distance measured [cells] : 0.071421
+Avg time [s] : 661.578000
+Num di input : 57

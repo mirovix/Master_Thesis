@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="path_NN" default="/home/miro/tiago_public_ws/src/thesis_mihailovic/drone/models/"/>
+<arg name="path_pre_proc" default="/home/miro/tiago_public_ws/src/" />
+<node name ="pre_processing" pkg="drone" type="pre_processing.py" args="$(arg path_pre_proc)"/>
+<node name ="goal" pkg="drone" type="goal" />
+<node name ="PublishGoal" pkg="drone" type="PublishGoal.py" />
+<node name ="test_drone" pkg="drone" type="test_drone.py" output="screen" args="$(arg path_NN)"/>
+</launch>

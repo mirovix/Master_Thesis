@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="path_NN" default="/home/miro/tiago_public_ws/src/thesis_mihailovic/drone/models/"/>
+<arg name="path_pre_proc" default="/home/miro/tiago_public_ws/src/" />
+<arg name="goal_x" default="NaN"/>
+<arg name="goal_y" default="NaN"/>
+<arg name="type" default="all"/>
+<node name ="pre_processing" pkg="drone" type="pre_processing.py" args="$(arg path_pre_proc)"/>
+<node name ="goal" pkg="drone" type="goal" />
+<node name ="PublishGoal" pkg="drone" type="PublishGoal.py" />
+<node name ="tf_map_bl" pkg="drone" type="tf_map_bl.py"/>
+<node name ="test_drone_policy" pkg="drone" type="test_drone_policy.py" output="screen" args="$(arg path_NN) $(arg goal_x) $(arg goal_y) $(arg type)"/>
+</launch>
